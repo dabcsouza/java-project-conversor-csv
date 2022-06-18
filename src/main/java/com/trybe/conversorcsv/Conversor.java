@@ -30,6 +30,6 @@ public class Conversor {
    *                     gravar os arquivos de saída.
    */
   public void converterPasta(File pastaDeEntradas, File pastaDeSaidas) throws IOException {
-    // TODO: Implementar.
+    System.out.println("teste");
   }
 }
