@@ -6,7 +6,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import org.jetbrains.annotations.NotNull;
 
 public class Conversor {
 
@@ -42,7 +41,7 @@ public class Conversor {
     }
   }
 
-  private File[] lerDiretorio(@NotNull File pastaDeEntrada) {
+  private File[] lerDiretorio(File pastaDeEntrada) {
     /**
      * Lê conteúdo do diretório.
      * @param pastaDeEntrada File com o endereço da pasta de entrada
